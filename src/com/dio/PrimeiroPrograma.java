@@ -1,6 +1,6 @@
 package com.dio;
 
-import com.dio.model.gato;
+import com.dio.model.Gato;
 
 public class PrimeiroPrograma {
 
@@ -8,7 +8,7 @@ public class PrimeiroPrograma {
 
 	
 		Livros livros = new Livros();
-		gato Gato = new gato();
+		Gato gato = new Gato();
 		
 		
 		

@@ -2,19 +2,19 @@ package com.dio.model;
 
 import java.util.Objects;
 
-public class gato {
+public class Gato {
 
 	private String nome;
 	private String cor;
 	private Integer idade;
 
-	public gato(String nome, String cor, Integer idade) {
-
-		this.nome = nome;
-		this.cor = cor;
-		this.idade = idade;
-
-	}
+//	public Gato(String nome, String cor, Integer idade) {
+//
+//		this.nome = nome;
+//		this.cor = cor;
+//		this.idade = idade;
+//
+//	}
 
 	public String getNome() {
 		return nome;
@@ -58,13 +58,10 @@ public class gato {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		gato other = (gato) obj;
+		Gato other = (Gato) obj;
 		return Objects.equals(cor, other.cor) && Objects.equals(idade, other.idade) && Objects.equals(nome, other.nome);
 	}
 
-	/*
-	 * public gato(String nome, String cor, Integer idade) { super(); this.nome =
-	 * nome; this.cor = cor; this.idade = idade; }
-	 */
+	
 
 }
